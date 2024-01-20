@@ -1,0 +1,248 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700&display=swap');
+* {
+	font-family: 'Montserrat', sans-serif;
+}
+body{
+	background: black;
+}
+
+/*navbar*/
+.sidebar-logo img {
+    width: 300px; 
+    height: auto; 
+}
+#services-nav .nav-item {
+    margin-right: 20px; 
+}
+.navbar-light .navbar-nav .nav-link {
+	color: white;
+}
+#services-nav .contact a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    background-color: rgb(255, 204, 0);
+	padding: 8px 16px;
+	border-radius: 15px; 
+}
+
+/*Home*/
+.full-width-image {
+	position: relative;
+}
+.services,
+.whyus,
+.contact-section{
+	height: 100vh;
+	background-color: #1E1E1E;
+}
+.full-width-image h1, 
+.whyus h2,
+.services h2 {
+    font-family: 'Allerta Stencil', sans-serif;
+}
+
+.full-width-image h1{
+  background: linear-gradient(to right, #FFBF00, #0D9BBF, #FFFFFF);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  font-size: 60px;
+}
+
+.caption-container {
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+	color: white;
+}
+
+.button11 {
+	border: 0.5px solid #FFBF00;
+	color: #FFBF00;
+	padding: 10px 20px;
+	border-radius: 20px;
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 20px;
+}
+
+
+/*why us*/
+.whyus{
+	background: radial-gradient(circle at center top, #fbd565 1%,  #1E1E1E 20%);
+
+
+}
+.whyus .section-header h2 {
+    color: #FFBF00;
+}
+
+.whyus .section-header p {
+    color: #98A2B3;
+}
+.whyus .card-body{
+	border-radius: 4px;
+	box-shadow: 0px 7px  black;
+}
+.whyus .card-body h3{
+	font-size: 13px;;
+}
+.whyus .card-body p{
+	font-size: 11px;
+	color:#B3B3B3;
+}
+
+/*services*/
+.services{
+	display: flex;
+    justify-content: center;
+    align-items: center;
+	background-image: url('/img/Variant.png'); 
+    background-size: cover; 
+    background-position: center center;
+    background-repeat: no-repeat; 
+    color: #FFFFFF;
+    padding: 50px 0;
+}
+
+.section-header h2 {
+    color: #FFBF00;
+}
+
+.section-header p {
+    color: #98A2B3;
+}
+
+.service-details p {
+	color:white;
+}
+.service-details h1 {
+	color:white;
+}
+
+.service-link a {
+    color: white; 
+	text-decoration: none;
+}
+.services .button1,
+.services .button2,
+.services .button3{
+	border: 1px solid black;
+	border-radius: 10px;
+	box-shadow: 0.5px 0.5px  lightblue;
+}
+.button1{
+	padding: 20px 100px;
+}
+.button2{
+	padding: 20px 114px;
+}
+.button3{
+	padding: 20px 112px;
+}
+
+.know-more {
+    color: #FFBF00;
+    border: 0.5px solid #FFBF00;
+	border-radius: 20px;
+	text-decoration: none;
+	padding: 10px 20px;
+}
+
+
+/*contact section*/
+.contact-section {
+    color: #FFFFFF; 
+    padding: 50px 0; 
+}
+
+.logo img {
+    max-width: 100px; 
+    margin-bottom: 20px; 
+}
+
+.contact-section h1 {
+    font-size: 50px; 
+    margin-bottom: 20px; 
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px; 
+}
+.buttons a {
+    text-decoration: none;
+    border: 0.5px solid #FFBF00; 
+    border-radius: 20px; 
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+.buttons .call {
+	background-color: #FFBF00;
+	color: #FFFFFF;
+}
+.buttons .mail{
+	color:#FFBF00;
+}
+.buttons a img {
+    margin-left: 10px;
+}
+
+.bottom-row {
+    justify-content: space-around;
+    margin-top: 150px;
+}
+.logo-row,
+.link-row {
+    text-align: center;
+}
+
+.link-row a {
+    color: #FFFFFF;
+    text-decoration: none;
+    margin-bottom: 10px;
+	margin-right: 25px;
+}
+.logo-row img {
+    width: 300px;
+    height: 60px; 
+}
+
+/*footer*/
+.footer-separator {
+    border-top: 1px solid #262626;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+.footer {
+	background-color: #1E1E1E;
+    color: #ffffff;
+    padding: 20px 0; 
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-md-4 {
+    flex: 0 0 30%; 
+    box-sizing: border-box;
+    padding: 0 15px;
+}
+.footer .logo{
+	margin-right: -3px;
+	margin-left: 20px;
+}
+
+.footer .policy{
+	text-decoration: none;
+	color: white;
+}
